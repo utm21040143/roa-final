@@ -1,0 +1,102 @@
+
+*{
+    font-family: Montserrat;
+    font-size: medium;
+    
+}
+
+
+header {
+    background: rgb(10, 10, 10) !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 800;
+    
+}
+
+
+/**.text-center{
+    background: rgb(250,194,153);
+    background: linear-gradient(90deg, rgba(250,194,153,1) 0%, rgba(244,216,200,1) 35%, rgba(249,192,248,1) 100%); 
+}**/
+.event {
+    position: relative;
+    margin: 50px 0;
+}
+.card1{
+    width: 100%;
+    height: 300px;
+}
+.text-card{
+    text-align: justify;
+}
+.login{
+    color: #f9f9f9;
+}
+.titulo {
+    color: #fff;
+}
+#title-card{
+    font-size: 100px;
+}
+form {
+    max-width: 300px;
+    margin: auto;
+    color: black;
+}
+#contenedor {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    max-width: 100; 
+  }
+  #login,
+  #derecho {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* input[type='text'],
+  input[type='password'] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  } */
+  
+  button {
+    padding: 10px 20px;
+    background-color: #ff00d9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .titulo {
+    font-size: 24px;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  
+  .pie-form {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(0, 17, 255);
+  }
+  
+
